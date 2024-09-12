@@ -2,7 +2,7 @@ environment: dev
 http_port: 8888
 auth_secret: sahdfbadfhblsbfasilb
 
-data_source_name: user=myuser password=mypassword host=ampere_2 port=5432 dbname=shortbin_dev pool_max_conns=10 pool_min_conns=5
+data_source_name: user=dev_user password=jw8s0F4B5a host=ampere_2 port=5432 dbname=shortbin_dev pool_max_conns=10 pool_min_conns=5
 
 short_id_length:
   default: 7

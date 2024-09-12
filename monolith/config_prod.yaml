@@ -2,7 +2,7 @@ environment: production
 http_port: 8888
 auth_secret: iwqfbiwabdhbkasfdeyuavbz
 
-data_source_name: user=myuser password=mypassword host=ampere_2 port=5432 dbname=shortbin pool_max_conns=30 pool_min_conns=20
+data_source_name: user=prod_user password=F7n8kd5bd host=ampere_2 port=5432 dbname=shortbin pool_max_conns=30 pool_min_conns=20
 
 short_id_length:
   default: 7
