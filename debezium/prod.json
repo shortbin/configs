@@ -1,0 +1,15 @@
+{
+    "name": "shortbin",
+    "plugin.name": "pgoutput",
+    "tasks.max": "4",
+    "database.history.kafka.bootstrap.servers": "kafka1:9092",
+    "database.user": "myuser",
+    "database.history.kafka.topic": "schema-changes.inventory",
+    "database.whitelist": "shortbin",
+    "database.hostname": "<ip_address>",
+    "database.port": "5432",
+    "topic.prefix": "shortbin",
+    "database.password": "mypassword",
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.dbname": "shortbin"
+  }
