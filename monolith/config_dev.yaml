@@ -14,3 +14,9 @@ short_id_length:
   min: 7
 
 expiration_in_years: 5
+
+redis:
+  address: ampere_2:6379
+  password: eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+  database: 0
+  ttl: 60 # minutes
