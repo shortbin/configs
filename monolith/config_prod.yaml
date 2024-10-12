@@ -6,7 +6,8 @@ data_source_name: user=prod_user password=F7n8kd5bd host=ampere_2 port=5432 dbna
 
 kafka:
   broker: ampere_2:9092
-  topic: click_events
+  clicks_topic: click_events # to publish the click events of urls created by users
+  public_clicks_topic: public_click_events # to publish the click events of urls created in public
 
 short_id_length:
   default: 7
